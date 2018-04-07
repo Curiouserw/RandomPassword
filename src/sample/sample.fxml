@@ -1,0 +1,10 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Label text="密码位数：" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <Label text="所用字符: " GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+</GridPane>
